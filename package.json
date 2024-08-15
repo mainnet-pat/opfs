@@ -1,0 +1,24 @@
+{
+  "name": "@mainnet-pat/opfs",
+  "private": false,
+  "version": "4.11.1",
+  "license": "MIT",
+  "type": "module",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "memfs": "^4.11.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.3.0",
+    "typescript": "^5.5.4"
+  }
+}
